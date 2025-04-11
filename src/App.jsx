@@ -12,7 +12,7 @@ function App() {
 
   return (
     <Router>
-      <div className=' z-0 bg-primary'>
+      <div className='z-0 bg-primary'>
 
 
      

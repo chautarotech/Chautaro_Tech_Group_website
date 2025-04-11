@@ -68,6 +68,7 @@
 
 import { FiChevronsDown } from "react-icons/fi";
 import { styles } from "../styles";
+import { RiH1 } from "react-icons/ri";
 // import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
@@ -81,8 +82,8 @@ const Hero = () => {
           <div className="w-3 h-80 violet-gradient" />
         </div>
 
-        <div className="">
-          <h1 className="text-[#915EFF]/70 text-lg font-bold pb-5 sm:text-wrap ">
+        <div>
+          <h1 className="text-[#915EFF]/70 text-9xl font-bold pb-5 sm:text-wrap ">
             Chautaro Tech Group
           </h1>
           <p className="mt-2 text-4xl text-white-100">
