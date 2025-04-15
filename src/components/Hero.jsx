@@ -82,11 +82,11 @@ const Hero = () => {
           <div className="w-3 h-80 violet-gradient" />
         </div>
 
-        <div>
-          <h1 className="text-[#915EFF]/70 text-9xl font-bold pb-5 sm:text-wrap ">
+        <div className="pt-5">
+          <h1 className="text-[#915EFF]/70 text-5xl sm:text-7xl lg:text-9xl  font-bold pb-5">
             Chautaro Tech Group
           </h1>
-          <p className="mt-2 text-4xl text-white-100">
+          <p className="mt-2  text-2xl sm:text-4xl lg:text-4xl text-white-100">
             Ignite Inspiration, Streamline Innovation
           </p>
         </div>
