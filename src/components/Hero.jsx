@@ -82,7 +82,7 @@ const Hero = () => {
           <div className="w-3 h-80 violet-gradient" />
         </div>
 
-        {/* <div className="pt-32 ">
+        {/* <div className="pt-32">
           <h1 className="text-[#915EFF]/70 text-4xl sm:text-8xl lg:text-9xl  font-bold pb-5">
             Chautaro Tech Group
           </h1>
@@ -91,15 +91,17 @@ const Hero = () => {
           </p>
         </div> */}
 
-<div className="pt-32 sm:pt-16 md:pt-24 lg:pt-32 px-1 sm:px-8">
-  <h1 className="text-[#915EFF]/70 text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-extrabold pb-2">
-    Chautaro Tech Group
-  </h1>
-  <p className="mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white-100">
-    Ignite Inspiration, Streamline Innovation
-  </p>
-</div>
-
+        <div className="pt-32">
+          <h1 className="text-[#915EFF]/70 text-4xl sm:text-8xl lg:text-9xl font-bold pb-5">
+            {/* Use <span> tags for each word */}
+            <span className="block sm:inline">Chautaro</span>{" "}
+            <span className="block sm:inline">Tech</span>{" "}
+            <span className="block sm:inline">Group</span>
+          </h1>
+          <p className="mt-5 text-2xl sm:text-4xl lg:text-4xl text-white-100">
+            Ignite Inspiration, Streamline Innovation
+          </p>
+        </div>
       </div>
       
 
