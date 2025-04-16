@@ -105,10 +105,10 @@ const Hero = () => {
       </div>
       
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute bottom-5 xs:bottom-10 md:bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="border-secondary flex flex-col justify-center items-center p-2">
-            <p className="pb-3">scroll down</p>
+          <div className="border-secondary flex flex-col justify-center items-center p-2 pb-1">
+            <p className="pb-2">scroll down</p>
             <FiChevronsDown
               size={24}
               className="inline-block animate-bounce"

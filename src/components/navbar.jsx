@@ -34,22 +34,26 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to='/'
-          className='flex items-center gap-2'
+          to="/"
+          className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={mainlogo} alt='logo' className='w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain' />
+          <img
+            src={mainlogo}
+            alt="logo"
+            className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 object-contain"
+          />
           {/* <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             CTG &nbsp;
           </p> */}
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -61,18 +65,34 @@ const Navbar = () => {
               {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
             </li>
           ))}
-          <Link to={'/'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Home</Link>
-          <Link to={'/blog'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Blog</Link>
+          <Link
+            to={"/"}
+            className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+          >
+            Home
+          </Link>
+          <Link
+            to={"/blog"}
+            className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+          >
+            Blog
+          </Link>
           {/* <Link to={'/categories'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Categories</Link> */}
-          <NavHashLink smooth={true} to={'/#contact'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Contact</NavHashLink>
+          <NavHashLink
+            smooth={true}
+            to={"/#contact"}
+            className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+          >
+            Contact
+          </NavHashLink>
           {/* <Link to={'/#contact'}>Contact Me</Link> */}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
 
@@ -81,7 +101,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {/* {navLinks.map((nav) => (
                 <div>
 
@@ -100,10 +120,26 @@ const Navbar = () => {
                 </li>
                 </div>
               ))} */}
-              <Link to={'/'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Home</Link>
-      <Link to={'/blog'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Blog</Link>
-      {/* <Link to={'/categories'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Categories</Link> */}
-      <NavHashLink smooth={true} to={'/#contact'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Contact</NavHashLink>
+              <Link
+                to={"/"}
+                className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+              >
+                Home
+              </Link>
+              <Link
+                to={"/blog"}
+                className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+              >
+                Blog
+              </Link>
+              {/* <Link to={'/categories'} className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer">Categories</Link> */}
+              <NavHashLink
+                smooth={true}
+                to={"/#contact"}
+                className=" text-secondary hover:text-white text-[18px] font-medium cursor-pointer"
+              >
+                Contact
+              </NavHashLink>
             </ul>
           </div>
         </div>
