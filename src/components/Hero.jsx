@@ -83,7 +83,7 @@ const Hero = () => {
         </div>
 
         <div className="pt-32 ">
-          <h1 className="text-[#915EFF]/70 text-4xl sm:text-7xl lg:text-9xl  font-bold pb-5">
+          <h1 className="text-[#915EFF]/70 text-4xl sm:text-5xl lg:text-9xl  font-bold pb-5">
             Chautaro Tech Group
           </h1>
           <p className="mt-2  text-2xl sm:text-4xl lg:text-4xl text-white-100">
