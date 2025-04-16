@@ -118,110 +118,61 @@ const technologies = [
 ];
 
 const experiences = [
+
+
   // {
-  //   title: "POS Software",
-  //   company_name: "Petpuja khaja",
-  //   icon: digitech,
-  //   iconBg: "#383E56",
-  //   date: "Nov 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     // "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Digital Marketing Officer",
-  //   company_name: "Softed",
-  //   icon: softed,
+  //   title: "Custom Web Application Development",
+  //   company_name: "Chautaro Tech Group",
+  //   icon: digitech, // Replace with an actual icon path
   //   iconBg: "#E6DEDD",
-  //   date: "April 2022 - Present",
+  //   // date: "April 2022 - Present",
   //   points: [
-  //     "Crafting visually stunning designs and executing strategic marketing campaigns.",
-  //     "Developing engaging social media content to elevate brand presence.",
-  //     "Collaborating with cross-functional teams to integrate graphics and marketing strategies into web applications and products.",
-  //     "Implementing responsive design principles for seamless user experience across devices.",
+  //     "Designed and developed scalable web applications for various industries, including healthcare, e-commerce, and education.",
+  //     "Built dynamic dashboards with real-time data visualization using React.js, Next.js, and Node.js.",
+  //     "Integrated third-party APIs, including payment systems, CRM, and cloud storage solutions.",
+  //     "Ensured security, performance optimization, and cross-browser compatibility for seamless user experience.",
   //   ],
   // },
   // {
-  //   title: "Tech Manager",
-  //   company_name: "Farakdhar",
-  //   icon: farakdhar,
+  //   title: "Android Application Development",
+  //   company_name: "Chautaro Tech Group",
+  //   icon: softed, // Replace with an actual icon path
   //   iconBg: "#383E56",
-  //   date: "March 2023 - Present",
+  //   // date: "March 2023 - Present",
   //   points: [
-  //     "Overseeing all technical aspects within the media company, ensuring smooth operations and high-quality output.",
-  //     "Implementing and maintaining IT infrastructure, including networks, and security systems, to support the company's digital operations.",
-  //     "Collaborating with content creators, editors to integrate technology solutions that enhance productivity and creativity.",
-  //     "Staying updated on industry trends and emerging technologies to continuously improve and innovate technical processes and workflows.",
+  //     "Developed Android applications for logistics, hospitality, and on-demand services.",
+  //     "Built custom mobile solutions with intuitive UI/UX, supporting both Android and cross-platform frameworks.",
+  //     "Implemented Firebase for real-time notifications, authentication, and cloud database integration.",
+  //     "Optimized apps for high performance and scalability, ensuring smooth user experiences.",
   //   ],
   // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: farakdhar,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  {
-    title: "POS Software Development",
-    company_name: "Chautaro Tech Group",
-    icon: digitech,  // Replace with an actual icon path
-    iconBg: "#383E56",
-    date: "Nov 2023 - Present",
-    points: [
-      "Developed and deployed custom Point-of-Sale (POS) systems for restaurants, supermarkets, and retail businesses.",
-      "Integrated secure payment gateways, barcode scanning, and automated billing features.",
-      "Implemented cloud-based inventory tracking and sales analytics for business owners.",
-      "Optimized POS software for multiple platforms, including web and Android devices.",
-    ],
-  },
+
   {
     title: "Custom Web Application Development",
     company_name: "Chautaro Tech Group",
-    icon: softed,  // Replace with an actual icon path
+    icon: digitech, // Replace with an actual icon path
     iconBg: "#E6DEDD",
-    date: "April 2022 - Present",
+    // date: "April 2022 - Present",
     points: [
-      "Designed and developed scalable web applications for various industries, including healthcare, e-commerce, and education.",
-      "Built dynamic dashboards with real-time data visualization using React.js, Next.js, and Node.js.",
-      "Integrated third-party APIs, including payment systems, CRM, and cloud storage solutions.",
-      "Ensured security, performance optimization, and cross-browser compatibility for seamless user experience.",
+      "We design and develop scalable web applications for various industries, including healthcare, e-commerce, and education.",
+      "We build dynamic dashboards featuring real-time data visualization using React.js, Next.js, and Node.js.",
+      "We integrate third-party APIs, such as payment systems, CRM platforms, and cloud storage solutions.",
+      "We focus on security, optimize performance, and ensure cross-browser compatibility for seamless user experiences.",
     ],
-  },
-  {
+},
+{
     title: "Android Application Development",
     company_name: "Chautaro Tech Group",
-    icon: farakdhar,  // Replace with an actual icon path
+    icon: softed, // Replace with an actual icon path
     iconBg: "#383E56",
-    date: "March 2023 - Present",
+    // date: "March 2023 - Present",
     points: [
-      "Developed Android applications for logistics, hospitality, and on-demand services.",
-      "Built custom mobile solutions with intuitive UI/UX, supporting both Android and cross-platform frameworks.",
-      "Implemented Firebase for real-time notifications, authentication, and cloud database integration.",
-      "Optimized apps for high performance and scalability, ensuring smooth user experiences.",
+      "We develop Android applications for logistics, hospitality, and on-demand services.",
+      "We create custom mobile solutions with intuitive UI/UX, leveraging both Android and cross-platform frameworks.",
+      "We implement Firebase to provide real-time notifications, authentication, and cloud database integration.",
+      "We continuously optimize our apps for high performance and scalability, ensuring smooth user experiences.",
     ],
-  },
-  {
-    title: "Enterprise Software Solutions",
-    company_name: "Chautaro Tech Group",
-    icon: softed,  // Replace with an actual icon path
-    iconBg: "#222831",
-    date: "Jan 2024 - Present",
-    points: [
-      "Developed ERP and business management systems for SMEs and large enterprises.",
-      "Created customized CRM solutions to streamline customer interactions and sales pipelines.",
-      "Implemented automated workflow systems for HR, finance, and operations management.",
-      "Provided cloud-based and on-premise deployment options with high-security standards.",
-    ],
-  },
+},
 
 ];
 
@@ -261,23 +212,21 @@ const projects = [
   },
   {
     name: "POS System",
-    description: "Developed a Point-of-Sale (POS) system for retail businesses, with inventory management and sales analytics.",
+    description:
+      "Developed a Point-of-Sale (POS) system for retail businesses, with inventory management and sales analytics.",
     image: posimage,
-    
   },
   {
     name: "Guff Chat App",
     description:
       "Developed a social media platform, Guff Gaff, for sharing stories, photos, and videos with friends and family.",
     image: chatApp,
-    
   },
   {
     name: "SyncMe Music Player",
     description:
       "Music streaming app that allows users to play, sync, and share music seamlessly with others in real time",
     image: musicplayerimage,
-    
   },
 ];
 
