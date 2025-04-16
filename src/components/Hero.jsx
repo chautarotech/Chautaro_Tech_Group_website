@@ -77,12 +77,12 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px] max-sm:top-[80px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className="flex flex-col justify-center items-center mt-5">
+        <div className="flex flex-col justify-center items-center mt-32">
           <div className="w-10 h-10 rounded-full bg-[#915EFF]" />
           <div className="w-3 h-80 violet-gradient" />
         </div>
 
-        <div className="pt-20">
+        <div className="pt-32 flex-row justify-center items-center">
           <h1 className="text-[#915EFF]/70 text-5xl sm:text-7xl lg:text-9xl  font-bold pb-5">
             Chautaro Tech Group
           </h1>
