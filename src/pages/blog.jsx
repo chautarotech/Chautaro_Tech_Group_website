@@ -38,7 +38,7 @@ const Blogs = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Blogs</Title>
         <Desc>
-          Here are some of my blogs
+          Here are some of our blogs
         </Desc>
         <div className='w-[75%] max-md:w-[85%] mx-auto'>
             <input type="text" placeholder='Search the blogs...' className='w-full p-4 rounded-md border border-solid border-gray-300 ' />

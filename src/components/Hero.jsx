@@ -82,7 +82,7 @@ const Hero = () => {
           <div className="w-3 h-80 violet-gradient" />
         </div>
 
-        <div className="pt-5">
+        <div className="pt-20">
           <h1 className="text-[#915EFF]/70 text-5xl sm:text-7xl lg:text-9xl  font-bold pb-5">
             Chautaro Tech Group
           </h1>
