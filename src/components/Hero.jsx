@@ -77,7 +77,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px] max-sm:top-[80px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className="flex flex-col justify-center items-center mt-20">
+        <div className="flex flex-col justify-center items-center  mt-40 sm:mt-20">
           <div className="w-10 h-10 rounded-full bg-[#915EFF]" />
           <div className="w-3 h-80 violet-gradient" />
         </div>
@@ -91,8 +91,8 @@ const Hero = () => {
           </p>
         </div> */}
 
-        <div className="pt-32">
-          <h1 className="text-[#915EFF]/70 text-4xl sm:text-8xl lg:text-9xl font-bold pb-5">
+        <div className=" pt-40 sm:pt-20">
+          <h1 className="text-[#915EFF]/70 text-6xl sm:text-8xl lg:text-9xl font-bold pb-5">
             {/* Use <span> tags for each word */}
             <span className="block sm:inline">Chautaro</span>{" "}
             <span className="block sm:inline">Tech</span>{" "}
