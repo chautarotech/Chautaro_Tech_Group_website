@@ -105,7 +105,7 @@ const Hero = () => {
       </div>
       
 
-      <div className="absolute bottom-10 xs:bottom-10 md:bottom-20 w-full flex justify-center items-center">
+      <div className="absolute bottom-12 xs:bottom-10 md:bottom-20 w-full flex justify-center items-center">
         <a href="#about">
           <div className="border-secondary flex flex-col justify-center items-center p-2 pb-1">
             <p className="pb-2">scroll down</p>
