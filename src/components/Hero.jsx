@@ -1,4 +1,3 @@
-
 import { FiChevronsDown } from "react-icons/fi";
 import { styles } from "../styles";
 
@@ -10,7 +9,7 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px] max-sm:top-[80px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center  mt-32 sm:mt-20">
-          <div className="w-10 h-10 rounded-full bg-[#915EFF]" />
+          <div className="w-10 h-10 rounded-full bg-[#915EFF]"/>
           <div className="w-3 h-80 violet-gradient" />
         </div>
 
